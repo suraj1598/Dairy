@@ -1,0 +1,212 @@
+header{
+    background-color:rgba(55, 185, 224, 0.897);
+    height: 100px;
+    line-height: 100px;
+}
+
+ul{
+    list-style: none;
+}
+
+ul li{
+    display: inline-block;
+}
+
+header nav {
+    float: left;
+    margin-left: 330px;
+}
+
+.logo img {
+    margin-top: -40px;
+}
+
+header nav ul li a {
+    padding-right: 30px;
+    font-weight: bold;
+    color: rgb(7, 0, 48);
+    transition: all 0.5s ease-in;
+}
+
+header nav ul li a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.slider h2 {
+    color:rgb(23, 17, 58);
+    font-weight: bolder;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.slider p {
+    color: rgb(23, 17, 58);
+    font-size: 20px;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.milk-card {
+    color: whitesmoke !important;
+    text-align: left;
+}
+
+/* input[type=button] {
+    color: saddlebrown;
+    background-color: blue;
+    margin-left: 10px !important;
+} */
+
+.milk-card-button {
+    color:rgba(24, 4, 4, 0.89);
+    background-color: whitesmoke;
+    font-weight: bolder;
+    font-size: 1rem;
+    padding: 7px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid whitesmoke;
+    position: absolute;
+    top: -35px;
+    left: 0px;
+}
+
+.milk-card-button:hover {
+    background-color: rgb(212, 209, 209);
+}
+
+.carousel-caption {
+    color: black;
+}
+
+.carousel-indicators li {
+    background-color: rgb(23, 17, 58);
+    height: 10px;
+    width: 40px;
+}
+
+.item-button {
+    color: white;
+    background-color: rgb(23, 17, 58);
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 7px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid rgb(23, 17, 58);
+}
+.item-button:hover {
+    background-color: rgb(33, 23, 94);
+}
+
+.font-table {
+    font-size: 1.5rem;
+}
+
+/*-------------------------------------about------------------------------------------ */
+.hr-decor {
+    background-color: rgb(37, 1, 104);
+}
+
+.title{
+    color:  rgb(33, 23, 94);
+    font-family: 'Parisienne', cursive;
+    margin-top: 10px;
+    margin-bottom: 0px !important;
+    font-weight: bolder;
+}
+
+.title:hover{
+    color: rgba(55, 185, 224, 0.897);
+    transition: 0.5s ease-in-out;
+}
+
+.description {
+    color: rgb(3, 3, 36);
+    margin-left: 100px;
+    margin-right: 100px;
+    font-weight: 450;
+    font-size: 1.3rem;
+}
+
+/*--------------------------------------- products --------------------------------------------------------- */
+ .products {
+    font-weight: bolder;
+    font-family: 'Parisienne', cursive;
+    color:  rgb(33, 23, 94);
+    padding: 20px;
+
+} 
+.item {
+    display: inline-block;
+    margin: 20px 50px;
+    background-color: whitesmoke;
+    box-shadow: 5px 5px 5px 5px #63605e4d;
+}
+
+.item:hover {
+    box-shadow: 10px 10px 10px 10px #63605e4d;
+
+}
+ #products {
+    background: rgba(55, 185, 224, 0.897);
+    color: black;
+}
+
+#products h1 {
+    color: rgb(33, 23, 94);
+    padding: 5px;
+    font-size: 1.5rem;
+    font-family: 'Parisienne', cursive;
+
+}
+
+.item-description {
+    background-color:  rgb(7, 0, 48);
+    color: whitesmoke;
+    font-weight: 200;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.item-description h2{
+    font-size: 1.5rem;
+    font-weight: 350;
+}
+
+p.text-center {
+    margin: 0px;
+}
+
+/*---------------------------------------- footer ----------------------------------------------------*/
+.container-footer {
+    background-color:  rgb(7, 0, 48);
+    color: whitesmoke;
+    text-align: center;
+    padding: 50px;
+}
+
+.container-footer span {
+    font-size: 1.2rem;
+    font-weight: 400;
+    padding: 5px;
+
+}
+
+.container-footer p {
+    font-size: 1.2rem;
+    font-weight: 200;
+}
+
+/* .container-footer h3 {
+    font-size: 1.5rem;
+    padding: 5px;
+    color: whitesmoke;
+} */
+
+.container-footer a {
+    text-decoration: none;
+    color: whitesmoke
+}
+
+.container-footer a:hover {
+    color: rgb(89, 215, 219);
+}
